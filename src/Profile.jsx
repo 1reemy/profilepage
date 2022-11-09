@@ -1,16 +1,16 @@
 import React from 'react'
-import Nav from './components/Nav.jsx'
-import Main from './components/Main.jsx'
-import Pic from './components/Pic.jsx'
-import Social from './components/Social.jsx'
+import Landingpage from './components/Landingpage.jsx'
+import About from './components/About.jsx'
+import Electrical from './components/Electrical.jsx'
+import Webdev from './components/Webdev.jsx'
 
 export default function Profile(){
     return(
-        <div className="container">
-            <Nav />
-            <Pic />
-            <Main />
-            <Social />
+        <div className='background'>
+            <Landingpage />
+            <About />  
+            <Electrical />
+            <Webdev />          
         </div>
     )
 }
