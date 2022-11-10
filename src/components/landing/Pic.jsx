@@ -3,9 +3,9 @@ import pic from "./pic.png"
 
 export default function Pic(){
     return(
-        <section className="left">
-            <div className='profile'>
-                <img src={pic} className="pose" />
+        <section className="left left1">
+            <div className='profile profile1'>
+                <img src={pic} className="pose pose1" />
             </div>
         </section>
     )

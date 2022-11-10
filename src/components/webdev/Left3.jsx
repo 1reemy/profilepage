@@ -6,8 +6,8 @@ export default function Left(){
     return(
         <section className="fromleft">
             <div className='style'>
-                <img src={Code} className="electrical" />
-                <img src={Page} className="code" />
+                <img src={Code} className="electrical electrical2" />
+                <img src={Page} className="code code1" />
             </div>
         </section>
     )

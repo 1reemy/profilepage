@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nav(){
     return(
-        <div className='top'>
+        <div className='top top1'>
             <nav>
                 <h4>About</h4>
                 <h4>Electrical</h4>

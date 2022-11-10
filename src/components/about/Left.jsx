@@ -1,13 +1,11 @@
 import React from 'react'
-import Code from './code.png'
-import Electrical from './electrical.jpg'
+import Me from './me.jpg'
 
 export default function Left(){
     return(
-        <section className="fromleft">
-            <div className='style'>
-                <img src={Electrical} className="electrical" />
-                <img src={Code} className="code"/>
+        <section className="fromleft fromleft1">
+            <div className='style style1'>
+                <img src={Me} className="electrical electrical1" />
             </div>
         </section>
     )
