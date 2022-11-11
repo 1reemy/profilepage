@@ -135,13 +135,14 @@ h4{
     margin: 8rem 0rem 0rem 7rem;
 }
 @media(max-width:600px){
-    .background1{
+    .background2{
         background-color: aquamarine;
+        width:37.5rem;
     }
     /*Landing Page*/
     .container1{
         display:grid;
-        grid-template-rows:40rem 16rem 10rem;
+        grid-template-rows:28rem 16rem 10rem;
         grid-template-columns: 12rem 12rem 12rem;
     }
     .top1{
@@ -224,15 +225,15 @@ h4{
         padding-left: 1rem;
     }
     .pose1{
-        width:25rem;
-        height:25rem;
+        width:22rem;
+        height:22rem;
         border-radius: 35rem 35rem 35rem 35rem;
-        margin:8rem 0rem 0rem 6rem;
+        margin:5rem 0rem 0rem 6rem;
     }
     /*About Me*/
     .about1{
         display:grid;
-        grid-template-rows:48rem 17rem 10rem;
+        grid-template-rows:34rem 17rem 10rem;
         grid-template-columns: 12rem 12rem 12rem;
     }
     .heading1{
@@ -250,6 +251,7 @@ h4{
     .topic1{
         font-family: 'Architects Daughter';
         font-size:2.8rem;
+        margin-left:3rem;
     }
     .topic3{
         font-family: 'Architects Daughter';
@@ -264,9 +266,9 @@ h4{
         grid-column: 1/4;
     }
     .paragraph1{
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         font-family: 'Architects Daughter';
-        margin:auto;
+        margin-left:4rem;
     }
     .paragraph3{
         font-size: 1.8rem;
@@ -283,8 +285,9 @@ h4{
     }
     .electrical1{
         margin-top: 8rem;
-        width:40rem;
-        height:40rem;
+        margin-left:5rem;
+        width:24rem;
+        height:24rem;
         position:relative;
         border-radius: 1rem;
     }
@@ -316,7 +319,7 @@ h4{
     /*Electrical*/
     .substation1{
         display:grid;
-        grid-template-rows:10rem 25rem 25rem;
+        grid-template-rows:10rem 25rem 20rem;
         grid-template-columns: 12rem 12rem 12rem;   
     }
     .substation2{

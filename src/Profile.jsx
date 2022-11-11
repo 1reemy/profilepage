@@ -6,7 +6,7 @@ import Webdev from './components/Webdev.jsx'
 
 export default function Profile(){
     return(
-        <div className='background background1'>
+        <div className='background background1 background2'>
             <Landingpage />
             <About />  
             <Electrical />
