@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Main(){
     return(
-        <section className="right">
-            <div className="header">
-                <p className='paragraph'>Skilled In:</p>
-                <ul className='paragraph'>
+        <section className="right right1 right2">
+            <div className="header header3">
+                <p className='paragraph paragraph1'>Skilled In:</p>
+                <ul className='paragraph paragraph1'>
                     <li>120-480V Electrical Power System Design</li>
                     <li>Electrical Instrumentation and Controls Design</li>
                     <li>Motor Control System Design</li>
