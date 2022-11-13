@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Main(){
     return(
-        <section className="right right1 right2">
+        <section className="right right3">
             <div className="header header3">
                 <p className='paragraph paragraph1'>Skilled In:</p>
                 <ul className='paragraph paragraph1'>
