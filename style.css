@@ -161,7 +161,7 @@ h4{
 }
 @media(max-width:600px){
     .background2{
-        /*background-color: aquamarine;*/
+        background-color: #0e0be9a6;
         width:37.5rem;
     }
     /*Landing Page*/
@@ -322,10 +322,13 @@ h4{
         display:flex;
         flex-direction: row;
         justify-content: center;
+        width:37rem;
     }
     .style3{
         display:flex;
         flex-direction: row;
+        justify-content: center;
+        width:37.5rem;
     }
     .electrical1{
         width:24rem;
@@ -368,5 +371,6 @@ h4{
         width:24rem;
         height:24rem;
         border-radius: 1rem;
+        margin:auto;
     } 
 }
