@@ -11,7 +11,7 @@ body{
 /*Landing Page*/
 .container{
     display:grid;
-    grid-template-rows:5rem 23rem 12rem;
+    grid-template-rows:5rem 25rem 12rem;
     grid-template-columns: 45rem 1rem 35rem;    
     background-image: url("background.png");
     background-repeat: no-repeat;
@@ -24,10 +24,10 @@ body{
 nav{
     display: flex;
     flex-direction: row;  
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 1.4rem;  
     font-family: sans-serif;
-    color:antiquewhite;  
+    color:white;  
 }
 .left{
     grid-row:1/4;
@@ -52,13 +52,13 @@ nav{
 }
 .hero{
     font-size: 3.5rem;
-    font-family: 'Architects Daughter';
-    color:antiquewhite;
+    font-family: 'Inter', sans-serif;
+    color:white;
 }
 .title{
     font-size: 2.2rem;    
-    font-family: 'Architects Daughter';
-    color:antiquewhite;
+    font-family: 'Inter';
+    color:white;
     margin:auto;
 }
 .contact{
@@ -72,13 +72,14 @@ nav{
 .icon-tabler{
     margin-right: 0.5rem;
     margin-top:2rem;
+    color: aliceblue;
 }
 h4{
     padding-left: 1rem;
 }
 .pose{
     width:40rem;
-    height:40rem;
+    height:42rem;
     border-radius: 1rem 35rem 0rem 0rem;
 }
 /*About Me*/
@@ -97,7 +98,7 @@ h4{
     justify-content:center;
 }
 .topic{
-    font-family: 'Architects Daughter';
+    font-family: 'Inter';
     font-size:3.2rem;
 }
 .fromleft{
@@ -110,7 +111,7 @@ h4{
 }
 .paragraph{
     font-size: 1.8rem;
-    font-family: 'Architects Daughter';
+    font-family: 'Inter';
 }
 .style{
     display:flex;
@@ -235,12 +236,12 @@ h4{
     }
     .hero1{
         font-size: 2.5rem;
-        font-family: 'Architects Daughter';
+        font-family: 'Inter';
         margin:auto;
     }
     .title1{
         font-size: 1.6rem;    
-        font-family: 'Architects Daughter';
+        font-family: 'Inter';
         margin:auto;
     }
     .contact1{
@@ -286,11 +287,11 @@ h4{
         justify-content:center;
     }
     .topic1{
-        font-family: 'Architects Daughter';
+        font-family: 'Inter';
         font-size:2.8rem;
     }
     .topic3{
-        font-family: 'Architects Daughter';
+        font-family: 'Inter';
         font-size:2.8rem;
     }
     .fromleft1{
@@ -313,11 +314,11 @@ h4{
     }
     .paragraph1{
         font-size: 1.3rem;
-        font-family: 'Architects Daughter';
+        font-family: 'Inter';
     }
     .paragraph3{
         font-size: 1.3rem;
-        font-family: 'Architects Daughter';
+        font-family: 'Inter';
         margin:auto;
     }
     .style1{
