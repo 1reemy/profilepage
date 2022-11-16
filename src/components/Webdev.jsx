@@ -5,7 +5,7 @@ import Left3 from "./webdev/Left3.jsx"
 
 export default function Electrical(){
     return(
-        <div className="substation0 substation2">
+        <div className="substation0 substation2 substation4">
             <Header3 />
             <Left3 />
             <Main3 />

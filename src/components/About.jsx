@@ -5,7 +5,7 @@ import Left from "./about/Left.jsx"
 
 export default function About(){
     return(
-        <div className="about about1">
+        <div className="about about1 about2">
             <Header />
             <Left />
             <Main />

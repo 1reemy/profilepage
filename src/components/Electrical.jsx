@@ -5,7 +5,7 @@ import Left2 from "./electrical/Left2.jsx"
 
 export default function Electrical(){
     return(
-        <div className="substation substation1">
+        <div className="substation substation1 substation3">
             <Header2 />
             <Left2 />
             <Main2 />

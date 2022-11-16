@@ -6,7 +6,7 @@ import Social from "./landing/Social.jsx"
 
 export default function Landingpage(){
     return(
-        <div className="container container1">
+        <div className="container container1 container2">
             <Nav />
             <Pic />
             <Main />

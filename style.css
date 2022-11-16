@@ -161,7 +161,7 @@ h4{
     margin: 8rem 0rem 0rem 7rem;
 }
 @media(max-width:600px){
-    .background2{
+    .background1{
         background-color: #0e0be9a6;
         width:37.5rem;
     }
@@ -376,4 +376,67 @@ h4{
         border-radius: 1rem;
         margin:auto;
     } 
+}
+@media(min-width:768px){
+    .background2{
+        background-color: #0e0be9a6;
+        width:83rem;
+    }
+}
+@media(min-width:992px){
+    .background3{
+        background-color: #0e0be9a6;
+        width:83rem;
+    }
+}
+/*@media(min-width:1200px){
+    .background4{
+        background-color: #0e0be9a6;
+        width:100%;
+    }
+    .container2{
+        display:grid;
+        grid-template-rows:5rem 25rem 12rem;
+        grid-template-columns: 60rem 1rem 31rem;    
+        background-image: url("background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about2{
+        display:grid;
+        grid-template-rows:6rem 34rem 7rem;
+        grid-template-columns: 60rem 9rem 31rem;
+        background-image: url("newbg3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .substation3{
+        display:grid;
+        grid-template-rows:5rem 34rem 7rem;
+        grid-template-columns: 60rem 9rem 31rem;
+        background-image: url("newbg2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .substation4{
+        display:grid;
+        grid-template-rows:5rem 36rem 7rem;
+        grid-template-columns: 60rem 9rem 31rem;
+        background-image: url("newbg3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}*/
+/*Media query for screens above 1200px may need work*/
+@media(min-width:1200px){
+    .background4{
+        background-color: #0e0be9a6;
+        width:100%;
+    }
+}
+@media(min-width:601px) and (max-width:767px){
+    .background5{
+        background-color: #0e0be9a6;
+        width:83rem;
+    }
 }
