@@ -26,8 +26,9 @@ nav{
     flex-direction: row;  
     justify-content: flex-start;
     font-size: 1.4rem;  
-    font-family: sans-serif;
-    color:white;  
+    font-family: sans-serif;     
+    /*padding-right: 2rem;*/ 
+    /*background-color: rgb(34, 78, 112);*/
 }
 .left{
     grid-row:1/4;
@@ -74,8 +75,17 @@ nav{
     margin-top:2rem;
     color: aliceblue;
 }
-h4{
+.move, .move--blank{
     padding-left: 1rem;
+    color:white;
+}
+.move:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.move--blank:hover{
+    cursor: alias;
+    text-decoration: none;
 }
 .pose{
     width:40rem;
@@ -389,45 +399,6 @@ h4{
         width:83rem;
     }
 }
-/*@media(min-width:1200px){
-    .background4{
-        background-color: #0e0be9a6;
-        width:100%;
-    }
-    .container2{
-        display:grid;
-        grid-template-rows:5rem 25rem 12rem;
-        grid-template-columns: 60rem 1rem 31rem;    
-        background-image: url("background.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .about2{
-        display:grid;
-        grid-template-rows:6rem 34rem 7rem;
-        grid-template-columns: 60rem 9rem 31rem;
-        background-image: url("newbg3.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .substation3{
-        display:grid;
-        grid-template-rows:5rem 34rem 7rem;
-        grid-template-columns: 60rem 9rem 31rem;
-        background-image: url("newbg2.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .substation4{
-        display:grid;
-        grid-template-rows:5rem 36rem 7rem;
-        grid-template-columns: 60rem 9rem 31rem;
-        background-image: url("newbg3.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}*/
-/*Media query for screens above 1200px may need work*/
 @media(min-width:1200px){
     .background4{
         background-color: #0e0be9a6;
