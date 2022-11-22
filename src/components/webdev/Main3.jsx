@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 export default function Main(){
     return(
@@ -13,6 +14,7 @@ export default function Main(){
                     <li>GIT</li>
                 </ul>
                 <p className='paragraph paragraph3'>Visit My Github Profile for more!</p>
+                <p className='paragraph paragraph1'><br/><br/><Link className="return" smooth to="landing">To Top</Link></p>
             </div>
         </section>
     )

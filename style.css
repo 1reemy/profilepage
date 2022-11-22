@@ -68,7 +68,7 @@ nav{
     font-size: 1.75rem;
     font-family: sans-serif;
     border-radius: 1rem 1rem;
-    background-color: #ff66cf;;
+    background-color: #ff66cf;
 }
 .icon-tabler{
     margin-right: 0.5rem;
@@ -86,6 +86,21 @@ nav{
 .move--blank:hover{
     cursor: alias;
     text-decoration: none;
+}
+.button:hover{
+    cursor:pointer;
+    text-decoration: none;
+    box-shadow: -1rem 1rem 1rem rgb(31, 92, 161);
+}
+.return{
+    font-size: 1rem;
+    color:black;
+}
+.return:hover{
+    cursor:pointer;
+    font-size:1.8rem;
+    color:gold;
+    text-decoration: underline;
 }
 .pose{
     width:40rem;
@@ -169,6 +184,63 @@ nav{
     height:34rem;
     border-radius: 1rem;
     margin: 8rem 0rem 0rem 7rem;
+}
+/*Contact Form*/
+.formContact{
+    display:grid;
+    grid-template-rows:6rem 46rem 7rem;
+    grid-template-columns: 48rem 2rem 31rem;
+    background-image: url("newbg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.email{
+	display:flex;
+	flex-direction:column;
+	padding:2rem 0rem 0rem 3rem;
+    height: 50rem;
+	font-family:'Inter';
+	font-size: 1.4rem;
+	color:black;
+}
+.email input{
+	padding: 0.25rem;
+	margin: 0.5rem;
+    font-size: 1.4rem;
+    font-family: 'Inter';
+}
+.email textarea{
+	height:10rem;
+	resize:none;
+    font-size: 1.4rem;
+    font-family: 'Inter';
+}
+.submit{
+	/*width:6rem;*/
+	margin:1rem 0rem 0rem 16rem;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.75rem;
+    font-family: sans-serif;
+    border-radius: 1rem 1rem;
+    background-color: #ff66cf;
+}
+.socialIcon{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactIcon{
+    margin:1rem;
+    color:rgb(54, 51, 51);
 }
 @media(max-width:600px){
     .background1{
@@ -386,6 +458,62 @@ nav{
         border-radius: 1rem;
         margin:auto;
     } 
+    /*Contact Form*/
+    .formContact1{
+        display:grid;
+        grid-template-rows:6rem 28rem 24rem;
+        grid-template-columns: 12rem 12rem 12rem;
+    }
+    .emailContact{
+        grid-row: 1/3;
+        grid-column: 1/4;
+    }
+    .email1{
+        display:flex;
+        flex-direction:column;
+        padding:2rem 0rem 0rem 3rem;
+        height: 58rem;
+    }
+    .email1 input{
+        padding: 0.25rem;
+        margin: 0.5rem;
+        font-size: 1.4rem;
+        font-family: 'Inter';
+    }
+    .email1 textarea{
+        height:10rem;
+        resize:none;
+        font-size: 1.4rem;
+        font-family: 'Inter';
+    }
+    .submit1{
+        /*width:6rem;*/
+        margin:1rem 0rem 0rem 11rem;
+        height: 3rem;
+        width: 12rem;
+        font-size: 1.75rem;
+        font-family: sans-serif;
+        border-radius: 1rem 1rem;
+        background-color: #ff66cf;
+    }
+    .socialIcon1{
+        grid-row: 3/4;
+        grid-column: 1/4;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .socialLogo1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height:1rem;
+    }
+    .contactIcon1{
+        margin:1rem;
+        color:rgb(54, 51, 51);
+    }
 }
 @media(min-width:768px){
     .background2{
