@@ -15,7 +15,7 @@ export default function Main(){
                     <li>System Maintenance</li>
                     <li>Computer Aided Design</li>
                 </ul>                
-            <p className='paragraph paragraph1'><br/><br/><Link className="return" smooth to="landing">To Top</Link></p>
+            <p className='paragraph paragraph1 paragraph5'><br/><Link className="return" smooth to="landing">To Top</Link></p>
             </div>
         </section>
     )

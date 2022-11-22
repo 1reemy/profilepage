@@ -224,6 +224,7 @@ nav{
     font-family: sans-serif;
     border-radius: 1rem 1rem;
     background-color: #ff66cf;
+    cursor: pointer;
 }
 .socialIcon{
     grid-row: 2/3;
@@ -241,6 +242,15 @@ nav{
 .contactIcon{
     margin:1rem;
     color:rgb(54, 51, 51);
+}
+@keyframes spin{
+    from{transform:rotateY(0deg);}
+    to{transform: rotateY(360deg);;}
+}
+.animate{
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 @media(max-width:600px){
     .background1{
@@ -402,6 +412,12 @@ nav{
         font-size: 1.3rem;
         font-family: 'Inter';
         margin:auto;
+    }
+    .paragraph4{
+        margin-top:7rem;
+    }
+    .paragraph5{
+        margin-top:-1rem;
     }
     .style1{
         display:flex;
