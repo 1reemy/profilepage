@@ -3,7 +3,7 @@ import react from 'react'
 export default function Contact(){
     return(
         <section className='emailContact'>
-               <form className="email email1" action="https://formsubmit.co/ezreemy@gmail.com" method ="POST">
+               <form className="email email1" action="3a8e4dbec884440dd4760e4b1bb4fc2e" method ="POST">
                     <h1 className='topic topic1' id='contact'>Contact Me</h1>
                     <label className='paragraph paragraph1'>Name*:</label>
                     <input type = "text" className = "entry" id = "name" name = "name" max-length = '50' required/>
