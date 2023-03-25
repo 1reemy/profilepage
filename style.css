@@ -24,11 +24,11 @@ body{
 nav{
     display: flex;
     flex-direction: row;  
-    justify-content: flex-start;
+    justify-content: flex-end;
     font-size: 1.4rem;  
     font-family: sans-serif;     
-    /*padding-right: 2rem;*/ 
-    /*background-color: rgb(34, 78, 112);*/
+    padding-right: 2rem; 
+    background-color: rgb(34, 78, 112);
 }
 .left{
     grid-row:1/4;
@@ -78,6 +78,7 @@ nav{
 .move, .move--blank{
     padding-left: 1rem;
     color:white;
+    text-decoration: none;
 }
 .move:hover{
     cursor: pointer;
@@ -101,6 +102,22 @@ nav{
     font-size:1.8rem;
     color:gold;
     text-decoration: underline;
+}
+.return1{
+    font-size: 1rem;
+    color:black;
+    position:relative;
+    bottom:7rem;
+}
+.return1:hover{
+    cursor:pointer;
+    font-size:1.8rem;
+    color:gold;
+    text-decoration: underline;
+}
+.href{
+    position:relative;
+    bottom:5rem;
 }
 .pose{
     width:40rem;
@@ -184,6 +201,130 @@ nav{
     height:34rem;
     border-radius: 1rem;
     margin: 8rem 0rem 0rem 7rem;
+}
+/*Electrical List*/
+.card{
+    display: flex;
+    flex-direction: row;
+    height:18rem;        
+}
+.projecttitle{
+    padding-left: 1rem;
+}
+.display{
+    background-color: grey;    
+    width:30rem;
+    margin: 0rem 0rem 5rem 5rem;
+    /*border-style: solid;
+    border-color: black;*/
+    border-radius: 2rem 0rem 0rem 2rem;
+    box-shadow: 0rem 1rem 1rem 0rem;
+}
+.desc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50rem;    
+    margin: 0rem 5rem 5rem 0rem;
+    /*border-style: solid;
+    border-color: black;*/
+    border-radius: 0rem 2rem 2rem 0rem;    
+    box-shadow: 0rem 1rem 1rem 0rem;
+    /*background-color: rgb(240, 217, 186);*/
+    background: url("background.png") no-repeat center fixed;
+}
+.list{
+    margin-bottom:0rem;
+}
+.newpage, .newpage--blank{
+    color:white;
+    text-decoration: none;
+}
+.newpage:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*Project Details*/
+.detail{
+    display:flex;
+    flex-direction: column;
+    background-image: url("newbg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.format{
+    display:grid;
+    grid-template-rows: 5rem 5rem 5rem 30rem;
+    grid-template-columns: 12rem 69rem;
+}
+/*Main5 Format*/
+.client{
+    grid-column: 1/2;
+    grid-row:1/2;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.clientName{
+    grid-column: 2/3;
+    grid-row:1/2;
+    font-family: 'Inter';
+    font-size:1.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.start{
+    grid-column: 1/2;
+    grid-row:2/3;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.startDate{
+    grid-column: 2/3;
+    grid-row:2/3;
+    font-family: 'Inter';
+    font-size:1.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.end{
+    grid-column: 1/2;
+    grid-row:3/4;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.endDate{
+    grid-column: 2/3;
+    grid-row:3/4;
+    font-family: 'Inter';
+    font-size:1.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.description{
+    grid-column: 1/2;
+    grid-row:4/5;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.descriptionInfo{
+    grid-column: 2/3;
+    grid-row:4/5;
+    font-family: 'Inter';
+    font-size:1.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 /*Contact Form*/
 .formContact{

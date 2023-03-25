@@ -9,10 +9,10 @@ export default function Profile(){
     return(        
         <div className='background background1 background2 background3 background4 background5'>
             <Landingpage />
-            <About />  
+            <About />            
             <Electrical />
             <Webdev /> 
-            <ContactForm />         
+            <ContactForm />     
         </div>
     )
 }
